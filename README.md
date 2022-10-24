@@ -7,6 +7,8 @@ Descripción del proyecto:
   
   Se utilizó una estructura HTML y CSS para los estilos.
   
+  El proyecto no está terminado, presenta oportunidades de mejora y posibildad de agregar javascript. 
+  
 Para ayuda, soporte o feedback puede escribir a rhonart12@gmail.com
 
 <i>Aclaratoria:
