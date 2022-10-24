@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cumbre Music</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header id="inicio" class="hero">
+        <nav class="nav">
+            <div class="logo">
+                <img src="imagenes/logo_horizontal.webp" alt="logo de grupo de musica católica Cumbre">
+            </div>
+
+            <ul class="nav__list">
+               <li class="nav__item">
+                    <a href="#invitacion" class="list__item">Inicio</a>
+                </li> 
+
+                <li class="nav__item">
+                    <a href="#nosotros" class="list__item">Nosotros</a>
+                </li> 
+
+                <li class="nav__item">
+                    <a href="#canciones" class="list__item">Cancionero</a>
+                </li> 
+
+                <li class="nav__item">
+                    <a href="#contacto" class="list__item">Contacto</a>
+                </li> 
+
+
+            </ul>
+
+        </nav>
+    </header>
+
+        <div id="invitacion" class="hero__invitacion">
+            <div class="invitacion">
+            <h1>Canta con nosotros</h1>
+                <p>Descarga el cancionero para <b>este domingo</b> y acompáñanos a cantar.</p>
+                
+            </div>
+         
+            <a href="https://docs.google.com/document/d/1pIpxP_6Vlr4Jfl0bYrHMMhqYV9gn8xZ_ogEOYc7tt0c/edit#heading=h.luqz3nolwos7" target="_blank" class="benditoboton">
+                <input type="submit" value="Descargar" class="hero__cta">
+            </a>
+
+            <img class="corohero" src="/imagenes/coro_hero.webp" alt="coro de siete personas cantando con cancioneros">
+
+        </div>
+
+        
+
+
+
+      <section id="nosotros" class="about__us">
+         <img class="abtus__image" src="imagenes/coro_posando.webp" alt="ilustracion coro posando">
+            <div class="abtus__textos">
+                <h2 class="abtus__titulo">Sobre nosotros</h2>
+                <p class="abtus__parrafo">Somos un <b>ministerio de música católica.</b> Esta iniciativa nació en abril del 2020, cuando en mitad del confinamiento la parroquia de los Sacramentinos en Santiago de Chile necesitaba de un ministerio arriesgado que asistiera los domingos para animar la misa que se transmitiría por instagram.
+                    <br>
+                    <br> 
+                Hemos estado funcionando de forma ininterrumpida desde entonces; <b>participamos en la misa dominical de las 12:00</b> y se nos puede ver en la parroquia ensayando los días jueves por las noches. 
+                </p>
+            </div>
+            <img src="/imagenes/coro_cantando.webp" alt="cuatro personas cantando pentagrama y notas musicales sobre ellos">
+        </section>
+
+        <article id="canciones" class="cancionero">
+            <h2>Descargar canciones</h2>
+            <p>Todos los domingos a las 12:00 cantamos en la parroquia de los Sacramentinos, en <b>Arturo Prat 468, Santiago Centro.</b>
+                <br>
+                Descarga nuestro cancionero y canta con nosotros.</p>
+            <a href="https://docs.google.com/document/d/1Tn3AbV2XzhMOdDMAr2XMaSgXSz4SA4Os/edit?usp=sharing&ouid=114707349195595938419&rtpof=true&sd=true" target="_blank" class="benditoboton">
+                 <input type="submit" value="Descargar" class="cancionero__cta">
+            </a>
+        
+        </article>
+
+
+
+        <section id="contacto" class="contact__us">
+            <h2>Conversemos</h2>
+            <p>  ¡Queremos conocerte!
+                <br>
+                Cuéntanos tu opinión o haznos saber si hay alguna canción que quieras que cantemos en la misa del domingo a las 12:00. </p>
+
+            <form class="form"   action="https://formspree.io/f/meqdrjnn"
+            method="POST">
+                <div class="form__container">
+                    <h2 class="form__title">Escríbenos</h2>
+                    <input type="text" class="form__input" placeholder="Nombre:" name="name">
+                    <input type="email" class="form__input" placeholder="Email:" name="_replyto">
+                    <textarea class="form__input form__input--message" placeholder="Mensaje:" name="message"></textarea>
+
+                    <input type="submit" value="Enviar" class="form__cta">
+                </div>
+            </form>
+           
+        </section>
+
+        <footer id="pie" class="final">
+           <div class="contenedor">
+
+                <a href="#inicio" class="logo2">
+                    <img src="imagenes/logo_vertical.webp" alt="logo vertical grupo de musica catolica Cumbre">
+                </a>
+        </footer>
+
+</body>
+</html>

@@ -1,0 +1,260 @@
+/*
+PALETA DE COLORES:
+    MOSTZA #FFB83A
+    AZUL CELESTE #22C3E7
+    AMARILLO DE NAPOLES #FFD990
+    NARANJA PASTEL #FEAF60
+
+    FUENTES: POPPINS Y ROBOTO: */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  
+    font-size: 16px;
+    margin: auto;
+
+  }
+  
+  p{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  img{
+    max-width: 100%;
+  }
+  
+  h1{
+    text-align: center;
+  }
+
+  h2{
+    text-align: center;
+    margin-top: 15px;
+    padding-top: .5rem;
+  }
+
+  h3{
+    text-align: center;
+    font-family: poppins;
+    display: block;
+    font-weight: 400;
+
+  }
+
+  .logo{
+    height: auto;
+    width: 200px;
+    margin-top: none;
+  }
+
+  .logo2{
+    height: 100px;
+    width: 100px;
+
+  }
+
+
+  .nav{
+    margin-top: 0rem; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  
+  .nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 3.5rem;
+  }
+  
+  .nav ul a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+.hero{
+  background-image: linear-gradient(#FFB83A, #FFD990);
+  height: 90px;
+  width: auto;
+
+}
+
+.corohero{
+  height: 350px;
+  width: 350px;
+  padding: 0em 1em;
+}
+
+.hero__invitacion{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.invitacion{
+  text-align: center;
+
+
+}
+
+.benditoboton{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-decoration: none;
+}
+
+.hero__cta{
+  width: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: inherit;
+  font-size: 1rem;
+  background-color:#4DAEFE;
+  color: white;
+  border: none;
+  font-weight: 600;
+  padding: .7em 0;
+  border-radius: .2em;
+  cursor: pointer;
+}
+
+.cancionero{
+  background-image: linear-gradient(#FFB83A, #FFD990);
+  display: grid;
+
+
+}
+
+.cancionero__cta{
+  width: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: inherit;
+  font-size: 1rem;
+  background-color:#4DAEFE;
+  color: white;
+  border: none;
+  font-weight: 600;
+  padding: .7em 0;
+  border-radius: .2em;
+  cursor: pointer;
+
+}
+
+
+
+.abtus__image{
+  width: 700px;
+  height: auto;
+}
+
+.abtus__textos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  margin: 0;
+}
+
+.about__us{
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+
+.contact__us{
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  max-width: 400px;
+  border-radius: 1em;
+  padding: 1rem 1.5em;
+  display: flex;
+  justify-content: center;
+}
+
+.form__container{
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
+
+}
+
+.form__input{
+  font-family: inherit;
+  font-size: 1rem;
+  padding: .8em 1em;
+  outline: none;
+  border: none;
+  border: 1px solid #bbb0b0;
+  border-radius: 0.2em;
+
+}
+
+.form__input--message{
+  resize: none;
+  padding: 1.8em 1em;
+  margin-bottom: .5em;
+
+}
+
+.form__cta{
+  font-family: inherit;
+  font-size: 1rem;
+  background-color:#FEAF60;
+  color: white;
+  border: none;
+  font-weight: 600;
+  padding: .7em 0;
+  border-radius: .2em;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.final{
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    display: flex;
+    justify-content:center;
+    height: 100%;
+}
+
+.boton{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
