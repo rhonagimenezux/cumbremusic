@@ -12,6 +12,7 @@ Descripción del proyecto:
 Para ayuda, soporte o feedback puede escribir a rhonart12@gmail.com
 
 Gracias por leer ♥
+Rhona Giménez.
 
  
  
